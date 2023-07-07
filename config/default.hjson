@@ -1,0 +1,29 @@
+{
+	satellites: [
+		{
+			norad: 25338 // NOAA 15
+			freq: 13762e4,
+			transmissionType: "APT"
+		},
+		{
+			norad: 28654 // NOAA 18
+			freq: 1379125e3,
+			transmissionType: "APT"
+		},
+		{
+			norad: 33591 // NOAA 19
+			freq: 1371e6,
+			transmissionType: "APT"
+		},
+		{
+			norad: 57166 // Meteor-M N2-3 (Russian naming...)
+			freq: 1379e5,
+			transmissionType: "LRPT"
+		}
+	],
+	baseStation: {
+		latitude: 52.5,
+		longitude: 21,
+		altitude: 120
+	}
+}
